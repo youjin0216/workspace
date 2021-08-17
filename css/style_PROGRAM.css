@@ -1,0 +1,84 @@
+.con_right {
+   padding: 0 0 50px 0;
+   border-bottom: 2px solid #767676;
+}
+.con_top{
+   position:relative;
+   width:1080px;
+   height:648px;
+}
+.con_top .sub_set{
+   height:648px
+}
+.sub_set h2{
+   width: 280px;
+   font-size: 40px;
+   padding-top: 60px;
+   border-bottom: 5px solid #000;
+   font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+}
+.sub_con{
+   width:100%;
+   height:647px;
+}
+.info_txt{
+   display:block;
+   width:300px;
+   padding-top:40px;
+   font-size:12px;
+   font-weight: bold;
+   color:#666;
+   line-height:1.7;
+   vertical-align:top;
+}
+.info_txt p{
+   margin-top:10px;
+}
+.info_txt p:first-child{
+   margin-top:0;
+}
+.info_txt .btn_area{
+   display:block;
+   height:33px;
+   margin-top:20px;
+}
+.info_txt .btn_area a{
+   float:left;
+   margin-right:10px;
+}
+.main_poster{
+   overflow:hidden;
+   position:absolute;
+   top:97px;right:230px;
+   width:560px;
+   height:470px;
+}
+.main_poster img{
+   max-width:100%;
+   width:100%;
+   height:auto;
+}
+
+.thumbs {
+   float: right;
+   background-color: rgba(0, 0, 0, 0.2);
+   text-align: center;
+}
+.thumbs li {
+   padding: 0;
+   
+}
+.thumbs li:first-child {
+   border:none;
+}
+.thumbs a{
+   display: block;
+}
+#largeImg {
+   width: 90%;
+   height: 400px;
+}
+#largeImg img {
+   width: 90%;
+   height: 400px;
+}

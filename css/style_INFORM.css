@@ -1,0 +1,86 @@
+.con_right {
+	padding: 0 0 20px 0;
+	border-bottom: 2px solid #767676;
+}
+.schedule_day {
+	overflow:hidden; 
+	width:100%; 
+	display:table;
+	margin:43px 0 10px 0;
+}
+.schedule_day li	{
+	display:table-cell; 
+	cursor:pointer;  
+	text-align:center; 
+	border-bottom:2px solid #756986; 
+	border-top:1px #e6e6e6 solid; 
+	border-right:1px #e6e6e6 solid;  
+	padding:18px 0 18px 0; 
+	color:#b8b8b8;
+}
+.schedule_day li.on	{ 
+	border:2px solid #756986; 
+	border-bottom:none; 
+	color:#5c2b9a;  
+}
+.schedule_day li:first-child {
+	border-left:1px solid #e6e6e6 ;
+}
+.schedule_day li.on:first-child { 
+	border-left:2px solid #756986;
+}
+
+table {
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+table {
+	width:100%;   
+	border-top:1px solid #dadada; 
+}
+table.schedule_cinema2{
+	display: none;
+}
+table th {
+	color:#333; 
+	vertical-align:middle;
+	border-bottom:1px solid #dadada; 
+	letter-spacing:-1px; 
+	padding:13px 0 15px 0;
+}
+table th	{
+	background:#ececec;
+	color:#5c2b9a; 
+	vertical-align:middle;
+	border:1px solid #dadada; 
+	letter-spacing:-1px; 
+	padding:13px 0 15px 0;
+}
+table td	{
+	text-align:center; 
+	min-height:60px; 
+	color:#666; 
+	vertical-align:top; 
+	border-left:1px solid #dadada;  
+	border-bottom:1px solid #dadada; 
+	letter-spacing:-0.5px; 
+	padding:10px 15px 8px 15px; 
+}
+
+table td	p {
+	color:#f90;  
+}
+table td p:nth-child(2) {
+	font-weight: bold; 
+	padding: 2px 0; color:#000;
+}
+table td	a:hover {
+	color:#000; 
+	text-decoration:underline; 
+}	
+table td:first-child {
+	border-left:none;  
+	vertical-align:middle;  
+	background:#fafafa; 
+	color:#666; 
+}	
